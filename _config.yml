@@ -4,7 +4,7 @@ SEOTitle: 胡少华的博客
 header-img: img/post-bg-desk.jpg
 email: hsh@whu.edu.cn
 description: "Every failure is leading towards success."
-keyword: "HSH, HSH Blog, 胡少华的博客, oashua, 邱柏荧, iOS, Apple, iPhone"
+keyword: "HSH, HSH Blog, 胡少华的博客, oashua, 胡少华, iOS, Apple, iPhone"
 url: "http://oashua.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/oashua/oashua.github.io.git" # you code repository
@@ -12,7 +12,7 @@ github_repo: "https://github.com/oashua/oashua.github.io.git" # you code reposit
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/aboutme.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
