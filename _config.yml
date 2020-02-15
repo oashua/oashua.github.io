@@ -4,10 +4,10 @@ SEOTitle: 胡少华的博客
 header-img: img/post-bg-desk.jpg
 email: hsh@whu.edu.cn
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
+keyword: "HSH, HSH Blog, 胡少华的博客, oashua, 邱柏荧, iOS, Apple, iPhone"
 url: "http://oashua.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/oashua/oashua.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -18,7 +18,7 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 
 # SNS settings
 RSS: false
-weibo_username:     胡少华18
+weibo_username:     6573261406
 zhihu_username:     hu-shao-hua-40-79
 github_username:    oashua
 #facebook_username:  baiying.qiu.7
@@ -31,7 +31,7 @@ github_username:    oashua
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
-paginate: 10
+paginate: 1
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
@@ -64,9 +64,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  repo: oashua.github.io    #仓库名称
+  owner: oashua    #github用户名
+  admin: oashua
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -78,7 +78,7 @@ ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
