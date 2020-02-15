@@ -1,11 +1,11 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
+title: HSH Blog
+SEOTitle: 胡少华的博客
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
+email: hsh@whu.edu.cn
 description: "Every failure is leading towards success."
 keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+url: "http://oashua.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
@@ -18,11 +18,11 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+weibo_username:     胡少华18
+zhihu_username:     hu-shao-hua-40-79
+github_username:    oashua
+#facebook_username:  baiying.qiu.7
+#jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
 
 
@@ -85,7 +85,7 @@ ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定�
 
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
+featured-tags: false                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
 
@@ -99,16 +99,19 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "信息门户",
+        href: "http://ehall.whu.edu.cn/new/index.html"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "图书馆",
+        href: "http://www.lib.whu.edu.cn/web/default.asp"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "教务系统",
+        href: "http://bkjw.whu.edu.cn/stu/stu_index.jsp"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "珞珈在线",
+        href: "https://www.mooc.whu.edu.cn/portal"
+    },{
+        title:"图书馆联盟"
+        href:"http://www.ucdrs.superlib.net/"
     }
 ]
