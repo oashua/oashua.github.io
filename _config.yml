@@ -110,8 +110,5 @@ friends: [
     },{
         title: "珞珈在线",
         href: "https://www.mooc.whu.edu.cn/portal"
-    },{
-        title:"图书馆联盟"
-        href:"http://www.ucdrs.superlib.net/"
     }
 ]
