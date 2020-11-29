@@ -36,7 +36,7 @@ $$
 L(\theta)=\sum_{i=1}^N {\rm log[cosh}(R_{\theta}({\rm log}\ y_i)+c-{\rm log}\frac{y_i}{x_i})]
 $$
 
-![](http://latex.codecogs.com/gif.latex?\L(\theta)=\sum_{i=1}^N {\rm log[cosh}(R_{\theta}({\rm log}\ y_i)+c-{\rm log}\frac{y_i}{x_i})])
+![](http://latex.codecogs.com/gif.latex?L(\theta)=\sum_{i=1}^N {\rm log[cosh}(R_{\theta}({\rm log}\ y_i)+c-{\rm log}\frac{y_i}{x_i})])
 
 其中$x_i$表示干净图像，$y_i$表示有噪声的图像，$R_{\theta}({\rm log}\ y_i)$代表CNN的输出，$c$是对数噪声的非零均值。这样的设计或许比L2范数的损失函数要好一些。
 
