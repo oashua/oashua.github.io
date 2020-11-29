@@ -32,9 +32,7 @@ catalog: true
 
 ## 损失函数设计
 
-$$
-L(\theta)=\sum_{i=1}^N {\rm log[cosh}(R_{\theta}({\rm log}\ y_i)+c-{\rm log}\frac{y_i}{x_i})]
-$$
+![](http://latex.codecogs.com/gif.latex?L(\theta)=\sum_{i=1}^N {\rm log[cosh}(R_{\theta}({\rm log}\ y_i)+c-{\rm log}\frac{y_i}{x_i})])
 
 其中$x_i$表示干净图像，$y_i$表示有噪声的图像，$R_{\theta}({\rm log}\ y_i)$代表CNN的输出，$c$是对数噪声的非零均值。这样的设计或许比L2范数的损失函数要好一些。
 
@@ -45,4 +43,3 @@ $$
 假设同一地点有很多不同时间的图像，干净图像通过对这些时间图像取平均得到，并且只保留时间上比变化不大的区域。这样就有了噪声图片和对应的干净版本作为ground truth用于训练，于是就有了下面完整的训练流程图：
 
 ![img](https://i.bmp.ovh/imgs/2020/11/f90ecbe38ac7db26.png)
-
