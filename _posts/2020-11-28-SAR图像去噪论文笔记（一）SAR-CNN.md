@@ -8,6 +8,8 @@ header-img: img/OIP.png
 catalog: true
 ---
 
+论文链接：[SAR IMAGE DESPECKLING THROUGH CONVOLUTIONAL NEURAL NETWORKS](https://arxiv.org/pdf/1704.00275.pdf)
+
 这篇论文发表是在2017年，算是比较古老了，指标与最新的论文相去甚远，但是作为初学者，我认为仍然有值得学习的地方，至少在一些基础问题的处理上大家都是一样的。
 
 ## 简介
@@ -24,7 +26,7 @@ catalog: true
 
 ## 网络结构
 
-模仿《Be-yond a Gaussian Denoiser: Residual Learning of Deep CNNfor Image Denoising》这篇论文，17曾卷积层，每层有64个3$\times$3的卷积核，其中还有批规范化处理。
+模仿《Be-yond a Gaussian Denoiser: Residual Learning of Deep CNNfor Image Denoising》这篇论文，17层卷积层，每层有64个3×3的卷积核，其中还有批规范化处理。
 
 ![img](https://i.bmp.ovh/imgs/2020/11/5efca1821b180aaa.png)
 
@@ -34,7 +36,7 @@ catalog: true
 
 ![](http://latex.codecogs.com/gif.latex?L(\theta)=\sum_{i=1}^N {\rm log[cosh}(R_{\theta}({\rm log}\ y_i)+c-{\rm log}\frac{y_i}{x_i})])
 
-其中x_i表示干净图像，y_i表示有噪声的图像，R_{\theta}(log  y_i)代表CNN的输出，c是对数噪声的非零均值。这样的设计或许比L2范数的损失函数要好一些。
+其中x_i表示干净图像，y_i表示有噪声的图像，R_θ(log  y_i)代表CNN的输出，c是对数噪声的非零均值。这样的设计或许比L2范数的损失函数要好一些。
 
 通过损失函数还可以看出，训练的目标不是干净图像，而是噪声图像，干净图像由原图像减去噪声图像再做指数变换得到。这也就是作者采用的**残差学习**（residual learning），在数据比较少的时候可以有效地加快收敛速度。
 
@@ -52,7 +54,7 @@ catalog: true
 
 ![](https://i.bmp.ovh/imgs/2020/11/bafffb2c26c61c04.png)
 
-对于真实SAR数据，每组图片有25个时间分量，可以使用上文提到的ad hoc方法，可见事先对数据集的研究也是很重要的。有ENL(equivalent number of looks，等效视数)和\alpha\beta率。
+对于真实SAR数据，每组图片有25个时间分量，可以使用上文提到的ad hoc方法，可见事先对数据集的研究也是很重要的。有ENL(equivalent number of looks，等效视数)和*αβ*率。
 
 ![](https://i.bmp.ovh/imgs/2020/11/20721114eb6be71b.png)
 
@@ -69,4 +71,4 @@ catalog: true
 
 + 没有详细说明对SAR图像的针对性设计（或者没有考虑）
 + 数据生成策略的普适性不强，满足条件的数据集太少
-+ 测试指标需要进一部研究
++ 测试指标需要进一步研究
